@@ -171,7 +171,7 @@ END;
      */
     public function validateSubscriptionPage($pageData)
     {
-        require $this->coderoot . 'src/autoload.php';
+        require $this->coderoot . 'recaptcha/src/autoload.php';
 
         if (empty($_POST)) {
             return '';

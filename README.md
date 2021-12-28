@@ -25,9 +25,10 @@ Install on the Manage Plugins page (menu Config > Plugins) using the package URL
 
 ### Usage ###
 
-For guidance on configuring and using the plugin see the documentation page https://resources.phplist.com/plugin/recaptcha
+For guidance on configuring and using the plugin see the documentation page https://resources.phplist.com/plugin/recaptchav3
 
 ## Version history ##
 
     version         Description
+    1.1.0+20211228  Restructure directories
     1.0.0+20211228  First release

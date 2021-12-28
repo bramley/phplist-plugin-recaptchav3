@@ -2,7 +2,7 @@
 
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__)
-    ->exclude('plugins/ReCaptchaV3Plugin/src')
+    ->exclude('plugins/ReCaptchaV3Plugin/recaptcha/src')
 ;
 
 return PhpCsFixer\Config::create()
