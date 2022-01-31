@@ -14,7 +14,6 @@
  * This class registers the plugin with phplist and hooks into the display and validation
  * of subscribe pages.
  */
-error_reporting(-1);
 class ReCaptchaV3Plugin extends phplistPlugin
 {
     /** @var string the name of the version file */
@@ -77,7 +76,7 @@ class ReCaptchaV3Plugin extends phplistPlugin
                 phpListPlugin::isEnabled('CommonPlugin')
                 && version_compare($plugins['CommonPlugin']->version, '3.7.17') >= 0
             ),
-            'phpList version 3.3.0 or later' => version_compare(VERSION, '3.3') > 0,
+            'phpList version 3.6.6 or later' => version_compare(VERSION, '3.6.6') >= 0,
         );
     }
 

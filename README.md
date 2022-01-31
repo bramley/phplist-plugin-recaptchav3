@@ -9,7 +9,7 @@ for information on how reCAPTCHA works.
 
 ### Dependencies ###
 
-The plugin requires phplist version 3.3.0 or later.
+The plugin requires phplist version 3.6.6 or later.
 
 Requires php version 5.4 or later.
 
@@ -30,5 +30,6 @@ For guidance on configuring and using the plugin see the documentation page http
 ## Version history ##
 
     version         Description
+    1.1.1+20220131  Require phplist 3.6.6
     1.1.0+20211228  Restructure directories
     1.0.0+20211228  First release
