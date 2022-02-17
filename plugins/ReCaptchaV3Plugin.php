@@ -136,6 +136,15 @@ class ReCaptchaV3Plugin extends phplistPlugin
         if (!$this->keysEntered) {
             return '';
         }
+
+        if ($_GET['p'] == 'asubscribe' && !empty($pageData['recaptchav3_not_asubscribe'])) {
+            return '';
+        }
+
+        if ($_GET['p'] == 'preferences') {
+            return '';
+        }
+
         $apiUrl = 'https://www.google.com/recaptcha/api.js';
         $format = <<<'END'
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -181,6 +190,10 @@ END;
         }
 
         if ($_GET['p'] == 'asubscribe' && !empty($pageData['recaptchav3_not_asubscribe'])) {
+            return '';
+        }
+
+        if ($_GET['p'] == 'preferences') {
             return '';
         }
 

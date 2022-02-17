@@ -30,6 +30,7 @@ For guidance on configuring and using the plugin see the documentation page http
 ## Version history ##
 
     version         Description
+    1.1.2+20220217  Do not show recaptcha on preferences page
     1.1.1+20220131  Require phplist 3.6.6
     1.1.0+20211228  Restructure directories
     1.0.0+20211228  First release
